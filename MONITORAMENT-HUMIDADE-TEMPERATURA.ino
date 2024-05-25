@@ -9,24 +9,25 @@ LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 #define DHTTYPE DHT11   
 DHT dht(DHTPIN, DHTTYPE);
 
-float t = 0; // Temperatura
-float h = 0; // Umidade
+float t = 0; //Temperatura
+float h = 0; //Umidade
 
 void setup() {
   Serial.begin(9600);
   Serial.println(F("DHTxx test!"));
   
-  lcd.begin(16, 2); // Inicializa o display LCD
-  dht.begin(); // Inicializa o sensor DHT
+  lcd.begin(16, 2);
+  dht.begin(); 
 }
 
 void loop() {
   delay(2000);
-  runDHT();
+  ReadDHT();
   displayData();
 }
 
-void runDHT(){
+
+void ReadDHT(){
   h = dht.readHumidity(); 
   t = dht.readTemperature(); 
 
@@ -36,20 +37,21 @@ void runDHT(){
   }
   
   Serial.print(F("Humidity: "));
-  Serial.print(h);
+  Serial.print(h, 1);
   Serial.print(F("%  Temperature: "));
-  Serial.println(t);
+  Serial.println(t, 1);
 }
+
 
 void displayData() {
   lcd.clear(); 
   lcd.setCursor(0, 0); 
   lcd.print("TEMP: ");
-  lcd.print(t);
-  lcd.print(" C");
+  lcd.print(t,1);
+  lcd.print("C");
 
   lcd.setCursor(0, 1);
   lcd.print("HUMI: ");
-  lcd.print(h);
-  lcd.print(" %");
+  lcd.print(h,1);
+  lcd.print("%");
 }

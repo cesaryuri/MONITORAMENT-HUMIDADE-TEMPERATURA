@@ -1,0 +1,52 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/home/cesar/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/home/cesar/.arduino15/packages/arduino/hardware/avr/1.8.6/variants/standard"
+  },
+  {
+    "Sourcefile": "/home/cesar/Documentos/GitHub/MONITORAMENT-HUMIDADE-TEMPERATURA/build/sketch/MONITORAMENT-HUMIDADE-TEMPERATURA.ino.cpp",
+    "Include": "LiquidCrystal.h",
+    "Includepath": "/home/cesar/Arduino/libraries/LiquidCrystal/src"
+  },
+  {
+    "Sourcefile": "/home/cesar/Documentos/GitHub/MONITORAMENT-HUMIDADE-TEMPERATURA/build/sketch/MONITORAMENT-HUMIDADE-TEMPERATURA.ino.cpp",
+    "Include": "DHT.h",
+    "Includepath": "/home/cesar/Arduino/libraries/DHT-sensor-library-master"
+  },
+  {
+    "Sourcefile": "/home/cesar/Documentos/GitHub/MONITORAMENT-HUMIDADE-TEMPERATURA/build/sketch/MONITORAMENT-HUMIDADE-TEMPERATURA.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/cesar/Arduino/libraries/LiquidCrystal/src/LiquidCrystal.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/cesar/Arduino/libraries/DHT-sensor-library-master/DHT.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/cesar/Arduino/libraries/DHT-sensor-library-master/DHT_U.cpp",
+    "Include": "Adafruit_Sensor.h",
+    "Includepath": "/home/cesar/Arduino/libraries/Adafruit_Unified_Sensor"
+  },
+  {
+    "Sourcefile": "/home/cesar/Arduino/libraries/DHT-sensor-library-master/DHT_U.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/cesar/Arduino/libraries/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

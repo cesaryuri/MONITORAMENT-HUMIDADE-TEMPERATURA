@@ -1,0 +1,7 @@
+#line 1 "/home/cesar/Documentos/GitHub/MONITORAMENT-HUMIDADE-TEMPERATURA/.vscode/arduino.json"
+{
+    "sketch": "MONITORAMENT-HUMIDADE-TEMPERATURA.ino",
+    "output": "build",
+    "board": "arduino:avr:uno",
+    "port": "/dev/ttyUSB0"
+}

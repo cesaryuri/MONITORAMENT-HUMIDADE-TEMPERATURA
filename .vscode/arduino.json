@@ -1,0 +1,6 @@
+{
+    "sketch": "MONITORAMENT-HUMIDADE-TEMPERATURA.ino",
+    "output": "build",
+    "board": "arduino:avr:uno",
+    "port": "/dev/ttyUSB0"
+}

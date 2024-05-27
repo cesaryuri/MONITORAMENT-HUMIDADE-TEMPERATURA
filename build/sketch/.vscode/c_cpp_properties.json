@@ -19,6 +19,7 @@
             "includePath": [
                 "/home/cesar/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino",
                 "/home/cesar/.arduino15/packages/arduino/hardware/avr/1.8.6/variants/standard",
+                "/home/cesar/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries/SoftwareSerial/src",
                 "/home/cesar/Arduino/libraries/LiquidCrystal/src",
                 "/home/cesar/Arduino/libraries/DHT-sensor-library-master",
                 "/home/cesar/Arduino/libraries/Adafruit_Unified_Sensor",
